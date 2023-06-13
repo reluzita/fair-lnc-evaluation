@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fair_lnc_evaluation"
+version = "0.0.1"
+authors = [
+  { name="Inês Silva", email="inesoliveiraesilva@gmail.com" },
+]
+description = "Methodology for the systematic evaluation of label noise correction methods for ML fairness."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/reluzita/fair-lnc-evaluation"
